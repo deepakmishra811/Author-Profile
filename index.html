@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The stories, poetry and reflections of Deepak Mishra.">
+  <title>Deepak Mishra | Writer & Poet</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f8f5ef;
+      color: #292720;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ded8cc;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .brand { font-size: 22px; font-weight: bold; }
+    nav { display: flex; gap: 20px; flex-wrap: wrap; }
+    nav a, .button {
+      color: inherit;
+      text-decoration: none;
+    }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 1050px; margin: auto; padding: 0 8%; }
+    .hero { padding: 95px 0 75px; max-width: 720px; }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font: 12px Arial, sans-serif;
+      color: #796b58;
+    }
+    h1 { font-size: clamp(42px, 7vw, 76px); line-height: 1.1; margin: 20px 0; }
+    h2 { font-size: 32px; }
+    .intro { font-size: 19px; color: #625c52; }
+    .button {
+      display: inline-block;
+      background: #302d26;
+      color: white;
+      padding: 12px 22px;
+      margin-top: 18px;
+    }
+    section { padding: 38px 0; border-top: 1px solid #ded8cc; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+    .card { padding: 24px; border: 1px solid #ded8cc; }
+    .card h3 { font-size: 23px; margin-top: 0; }
+    .muted { color: #71695e; }
+    footer {
+      margin-top: 45px;
+      padding: 28px 8%;
+      border-top: 1px solid #ded8cc;
+      text-align: center;
+      color: #71695e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Deepak Mishra</div>
+    <nav>
+      <a href="#stories">Stories</a>
+      <a href="#poetry">Poetry</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="border-top:0">
+      <div class="eyebrow">Stories • Poetry • Reflections</div>
+      <h1>Some feelings find their way into words.</h1>
+      <p class="intro">
+        Welcome to my little corner of the literary world,
+        where ordinary moments become stories, silence becomes
+        poetry, and the heart finds a language of its own.
+      </p>
+      <a class="button" href="#stories">Explore my writing</a>
+    </section>
+
+    <section id="stories">
+      <div class="eyebrow">From the writing desk</div>
+      <h2>Stories & Fiction</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>The Empty Chair</h3>
+          <p class="muted">Every Evening One Chair Waited, So Did He.</p>
+          <p>A story about loss, memory, and the warmth that refuses to die.</p>
+          <span class="muted">Full story coming soon.</span>
+        </article>
+        <article class="card">
+          <h3>More stories</h3>
+          <p>Fragments of life, unexpected encounters, and the people who stay with us.</p>
+          <span class="muted">New writing coming soon.</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="poetry">
+      <div class="eyebrow">Lafzon ke naam</div>
+      <h2>Poetry & Ghazals</h2>
+      <p>
+        Hindi poetry, Urdu-inspired shayari, and verses born from
+        love, longing, and the little silences between two people.
+      </p>
+      <p class="muted">Selected poems will be published here soon.</p>
+    </section>
+
+    <section id="about">
+      <div class="eyebrow">A little about me</div>
+      <h2>The person behind the words</h2>
+      <p>
+        I am Deepak Mishra, a writer and poet drawn to human emotions,
+        quiet conversations, unfinished stories, and the beauty hidden
+        in everyday life. Through fiction and poetry, I try to give
+        those fleeting moments a place to stay.
+      </p>
+    </section>
+
+    <section id="connect">
+      <div class="eyebrow">Continue reading</div>
+      <h2>Let's stay connected.</h2>
+      <p>More stories and reflections are on the way.</p>
+      <!-- Add your Substack URL to the link below -->
+      <a class="button" href="https://substack.com" target="_blank"
+         rel="noopener noreferrer">Read on Substack</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Deepak Mishra · Written with feeling.</p>
+  </footer>
+</body>
+</html>
